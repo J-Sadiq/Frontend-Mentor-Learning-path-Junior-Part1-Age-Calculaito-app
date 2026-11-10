@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("assets/fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("assets/fonts/Poppins-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("assets/fonts/Poppins-BoldItalic.ttf");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("assets/fonts/Poppins-ExtraBold.ttf");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("assets/fonts/Poppins-ExtraBoldItalic.ttf");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("assets/fonts/Poppins-Italic.ttf");
+  font-style: italic;
+}
+
+:root {
+  --Purple-500: hsl(259, 100%, 65%);
+  --Red-400: hsl(0, 100%, 67%);
+  --White: hsl(0, 100%, 100%);
+  --Grey-100: hsl(0, 0%, 94%);
+  --Grey-200: hsl(0, 0%, 86%);
+  --Grey-500: hsl(0, 1%, 44%);
+  --Black: hsl(0, 0%, 0%);
+}
