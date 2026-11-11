@@ -8,5 +8,44 @@
     <script defer src="script.js"></script>
     <title>Age Calculaitor App</title>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <article class="age-card">
+        <header>
+          <div>
+            <label for="day" class="label">Day</label>
+            <input type="number" id="day" class="input" placeholder="DD" />
+            <small class="error" id="day-error"></small>
+          </div>
+          <div>
+            <label for="month" class="label">Month</label>
+            <input type="number" id="month" class="input" placeholder="MM" />
+            <small class="error" id="month-error"></small>
+          </div>
+          <div>
+            <label for="year" class="label">Year</label>
+            <input type="number" id="year" class="input" placeholder="YY" />
+            <small class="error" id="year-error"></small>
+          </div>
+          <button class="btn-calc">
+            <img src="assets/images/icon-arrow.svg" alt="" />
+          </button>
+        </header>
+        <div class="texts">
+          <div>
+            <span class="year-date">--</span>
+            <p>years</p>
+          </div>
+          <div>
+            <span class="month-date">--</span>
+            <p>months</p>
+          </div>
+          <div>
+            <span class="day-date">--</span>
+            <p>days</p>
+          </div>
+        </div>
+      </article>
+    </main>
+  </body>
 </html>

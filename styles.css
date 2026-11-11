@@ -45,3 +45,103 @@
   --Grey-500: hsl(0, 1%, 44%);
   --Black: hsl(0, 0%, 0%);
 }
+
+html {
+  font-size: 62.25%;
+}
+
+body {
+  font-family: "Poppins";
+  background-color: var(--Grey-200);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  color: var(--Grey-500);
+}
+
+.age-card {
+  background-color: var(--White);
+  padding: 2rem;
+  min-width: 60rem;
+  max-width: 70rem;
+  border-radius: 10px;
+  border-bottom-right-radius: 120px;
+  box-shadow: -8px 10px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  display: flex;
+  position: relative;
+  gap: 4rem;
+  padding-bottom: 4rem;
+  padding-top: 2rem;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.2);
+}
+.btn-calc {
+  position: absolute;
+  border: none;
+  background-color: var(--Purple-500);
+  width: 5rem;
+  height: 5rem;
+  border-radius: 25px;
+  bottom: -2.5rem;
+  right: 0;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+.btn-calc:active {
+  background-color: black;
+}
+.btn-calc img {
+  width: 60%;
+}
+
+header div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.label {
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.input {
+  height: 5rem;
+  width: 12rem;
+  padding: 0rem 1rem;
+  font-size: 2rem;
+  font-weight: 900;
+  border-radius: 4px;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  font-size: 6rem;
+  font-weight: 900;
+  color: black;
+}
+
+.texts div {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.texts span {
+  color: var(--Purple-500);
+}
+
+.invalid {
+  border: 1px solid var(--Red-400);
+}
+.error {
+  color: var(--Red-400);
+}
