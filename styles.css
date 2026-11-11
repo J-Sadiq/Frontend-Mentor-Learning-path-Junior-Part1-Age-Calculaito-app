@@ -139,9 +139,51 @@ header div {
   color: var(--Purple-500);
 }
 
-.invalid {
+.input.invalid {
   border: 1px solid var(--Red-400);
 }
+.label.invalid,
 .error {
   color: var(--Red-400);
+}
+
+@media (max-width: 675px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 510px) {
+  html {
+    font-size: 50%;
+  }
+  .age-card {
+    padding: 2rem;
+    min-width: 25rem;
+    max-width: 50rem;
+  }
+  .input {
+    height: 6rem;
+    width: 9rem;
+  }
+  header {
+    padding-bottom: 5rem;
+    margin-bottom: 3.5rem;
+  }
+  .label {
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+  }
+  small {
+    font-size: 0.9rem;
+  }
+  .btn-calc {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50px;
+    bottom: -3.2rem;
+    right: 42%;
+    cursor: pointer;
+    transition: all ease 0.3s;
+  }
 }
